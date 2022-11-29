@@ -8,6 +8,7 @@ import (
 )
 
 var testOrganization = os.Getenv("SENTRY_TEST_ORGANIZATION")
+var testMemberEmail = os.Getenv("SENTRY_TEST_MEMBER_EMAIL")
 
 var testAccProvider *schema.Provider
 var testAccProviders map[string]*schema.Provider
